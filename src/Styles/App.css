@@ -1,0 +1,47 @@
+body {
+  background-color: #252526;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  color: #eeeeec;
+  font-size: 2.5em;
+  margin-top: 0.5em;
+  flex-direction: row;
+}
+
+.github-icon {
+  margin: 0.2em 0 0 5%;
+  font-size: 1em;
+  color: #eeeeec;
+  cursor: pointer;
+}
+
+.first-row,
+.second-row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.projects-valostats,
+.projects-chess,
+.projects-sfu-security,
+.projects-stocks,
+.projects-mutation-analysis,
+.projects-fantasynball {
+  justify-content: center;
+  margin: 4em 2em 0 2em;
+  padding: 1em;
+  background-color: #eeeeec;
+  border: 1px solid white;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 700px) {
+  .first-row,
+  .second-row {
+    flex-direction: column;
+  }
+}
