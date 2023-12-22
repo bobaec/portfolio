@@ -10,6 +10,7 @@ const InfoCard = ({info = {}}) => {
         description,
         links,
     } = info;
+    console.log(links);
     return (
         <div className="info-card-container">
             <img className="image-container" src={image} alt="cloudarmy logo"/>
