@@ -1,0 +1,23 @@
+// general
+body {
+  background-color: #282c34;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  /* .portfolio-header {
+    
+  } */
+  .info-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: start;
+  }
+}
+
+// mobile

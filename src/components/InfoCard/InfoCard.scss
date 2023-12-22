@@ -1,0 +1,27 @@
+.info-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-basis: 350px;
+    .image-container {
+        img {
+            object-fit: cover;
+        }
+        .logo-placeholder {
+            background-color: gray;
+        }
+    }
+    .text-container {
+        padding: 10px;
+        background-color: mintcream;
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+}
+
+// general
+
+// desktop
+
+// mobile
