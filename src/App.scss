@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
-  width: 80%;
+  width: min(70%, 2000px);
   margin: 20px auto;
   /* .portfolio-header {
     
@@ -15,8 +15,8 @@ body {
   .info-cards-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    justify-content: flex-start;
+    gap: 20px;
+    justify-content: center;
   }
 }
 

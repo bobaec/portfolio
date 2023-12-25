@@ -3,15 +3,17 @@ import valostatsLogo from '../../assets/logos/valostats-logo.png';
 import buzzItLogo from '../../assets/logos/buzzit-logo.png';
 import sfuLogo from '../../assets/logos/sfu-logo.png';
 
+const personalDescription = 'I am a Front End Developer with a three year track record in creating engaging and user-friendly web interfaces. With a typing speed of 150 words per minute, I am efficient at turning my ideas into code.';
+
 const cloudArmyInfo = {
     image: cloudArmyLogo,
     title: 'CloudArmy',
     duration: 'July 2021 - Oct 2023',
     jobTitle: 'Web Developer',
-    description: 'Consumer Neuroscience',
+    description: 'Consumer Neuroscience Reactor via React, Gatsby, Prismic',
     links: [{
         label: 'WEBSITE',
-        link: 'https://cloud.army',
+        url: 'https://cloud.army',
     }],
 }
 const valostatsInfo = {
@@ -22,7 +24,10 @@ const valostatsInfo = {
     description: "A purely front end prototype React Website for Riot's FPS title, Valorant",
     links: [{
         label: 'DEMO',
-        link: 'https://bobaec.github.io/valostats/#/'
+        url: 'https://bobaec.github.io/valostats/#/'
+    }, {
+        label: 'GITHUB',
+        url: 'https://github.com/bobaec/valostats',
     }],
 }
 const buzzItInfo = {
@@ -30,14 +35,14 @@ const buzzItInfo = {
     title: 'BuzzIt Inc.',
     duration: 'Oct 2020 - May 2021',
     jobTitle: 'Front End Developer',
-    description: 'Worked on mainly web development; created chat and forum features',
+    description: 'Worked on mainly web development; created notable features like chat and forum',
     links: [{
         label: 'WEBSITE',
-        link: 'https://buzzit.ca',
+        url: 'https://buzzit.ca',
     }],
 }
 
-const simonFraserInfo = {
+const sfuInfo = {
     image: sfuLogo,
     title: 'Simon Fraser University',
     duration: 'Apr 2020',
@@ -45,8 +50,56 @@ const simonFraserInfo = {
     description: 'Bachelor of Computing Science',
     links: [{
         label: 'WEBSITE',
-        link: 'https://sfu.ca',
+        url: 'https://sfu.ca',
     }],
 }
 
-export { cloudArmyInfo, valostatsInfo, buzzItInfo, simonFraserInfo };
+const glanceInfo = {
+    image: sfuLogo,
+    title: 'Glance',
+    duration: '2024 - Project Development',
+    jobTitle: '',
+    description: 'React Native Dating App hosted on Firebase',
+    // links: [{
+    //     label: 'WEBSITE',
+    //     url: 'https://sfu.ca',
+    // }],
+}
+
+const stonksInfo = {
+    image: sfuLogo,
+    title: 'Stonks',
+    duration: 'Apr 2020 - Full Stack Project',
+    jobTitle: '',
+    description: "Implemented CoinMarketCap and Yahoo's finance API to retrieve stock and crypto info for analysis",
+    links: [{
+        label: 'GITHUB',
+        url: 'https://github.com/bobaec/Stocks',
+    }],
+}
+
+const sfuSSEPInfo = {
+    image: sfuLogo,
+    title: 'SFU Security',
+    duration: 'Sep 2017 - Dec 2017',
+    jobTitle: 'Full Stack Developer',
+    description: "Worked with SFU Security to create a Spring web application with payroll to manage volunteers at SFU's Student Safety Engagement Program",
+    links: [{
+        label: 'WEBSITE',
+        url: 'https://www.sfu.ca/srs/campus-safety-security.html',
+    }],
+}
+
+const mutationAnalysisInfo = {
+    image: sfuLogo,
+    title: 'Mutation Analysis',
+    duration: '2019 - Quality Assurance Project',
+    jobTitle: '',
+    description: "Analysis of multiple open source projects with mutation testing via Java's Major",
+    links: [{
+        label: 'GITHUB',
+        url: 'https://github.com/bobaec/Mutation-Analysis',
+    }],
+}
+
+export { personalDescription, cloudArmyInfo, valostatsInfo, buzzItInfo, sfuInfo, glanceInfo, stonksInfo, sfuSSEPInfo, mutationAnalysisInfo };
