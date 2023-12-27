@@ -2,8 +2,14 @@ import cloudArmyLogo from '../../assets/logos/cloudarmy-logo.png';
 import valostatsLogo from '../../assets/logos/valostats-logo.png';
 import buzzItLogo from '../../assets/logos/buzzit-logo.png';
 import sfuLogo from '../../assets/logos/sfu-logo.png';
+import mutationAnalysisLogo from '../../assets/logos/mutation-testing-logo.png';
+import studywitmeLogo from '../../assets/logos/studywitme-logo.png';
+import stonksLogo from '../../assets/logos/stonks-logo.png';
+import glanceLogo from '../../assets/logos/glance-logo.png';
 
-const personalDescription = 'I am a Front End Developer with a three year track record in creating engaging and user-friendly web interfaces. With a typing speed of 150 words per minute, I am efficient at turning my ideas into code.';
+// const personalDescriptionOld = 
+// 'I am a Front End Developer with a three year track record in creating engaging and user-friendly web interfaces. With a typing speed of 150 words per minute, I am efficient at turning my ideas into code.';
+const personalDescription = '';
 
 const cloudArmyInfo = {
     image: cloudArmyLogo,
@@ -55,9 +61,9 @@ const sfuInfo = {
 }
 
 const glanceInfo = {
-    image: sfuLogo,
+    image: glanceLogo,
     title: 'Glance',
-    duration: '2024 - Project Development',
+    duration: '2024 - Project in Development',
     jobTitle: '',
     description: 'React Native Dating App hosted on Firebase',
     // links: [{
@@ -67,7 +73,7 @@ const glanceInfo = {
 }
 
 const stonksInfo = {
-    image: sfuLogo,
+    image: stonksLogo,
     title: 'Stonks',
     duration: 'Apr 2020 - Full Stack Project',
     jobTitle: '',
@@ -83,7 +89,7 @@ const sfuSSEPInfo = {
     title: 'SFU Security',
     duration: 'Sep 2017 - Dec 2017',
     jobTitle: 'Full Stack Developer',
-    description: "Worked with SFU Security to create a Spring web application with payroll to manage volunteers at SFU's Student Safety Engagement Program",
+    description: "Worked with SFU Security and Simon Fraser Student Society to create a Spring web application with payroll to manage volunteers and employees at SFU's Student Safety Engagement Program",
     links: [{
         label: 'WEBSITE',
         url: 'https://www.sfu.ca/srs/campus-safety-security.html',
@@ -91,7 +97,7 @@ const sfuSSEPInfo = {
 }
 
 const mutationAnalysisInfo = {
-    image: sfuLogo,
+    image: mutationAnalysisLogo,
     title: 'Mutation Analysis',
     duration: '2019 - Quality Assurance Project',
     jobTitle: '',
@@ -102,4 +108,16 @@ const mutationAnalysisInfo = {
     }],
 }
 
-export { personalDescription, cloudArmyInfo, valostatsInfo, buzzItInfo, sfuInfo, glanceInfo, stonksInfo, sfuSSEPInfo, mutationAnalysisInfo };
+const studywitmeInfo = {
+    image: studywitmeLogo,
+    title: 'Studywitme',
+    duration: '2016 - Website Project',
+    jobTitle: '',
+    description: "Real time collaborative study platform for students at SFU hosted on Firebase",
+    links: [{
+        label: 'GITHUB',
+        url: 'https://github.com/bobaec/STUDYWITHME',
+    }],
+}
+
+export { personalDescription, cloudArmyInfo, valostatsInfo, buzzItInfo, sfuInfo, glanceInfo, stonksInfo, sfuSSEPInfo, mutationAnalysisInfo, studywitmeInfo };

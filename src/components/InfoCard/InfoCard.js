@@ -29,7 +29,7 @@ const InfoCard = ({info = {}}) => {
         }
         return color;
     };
-    
+
     return (
         <div className="info-card-container">
             <div className="info-card-shadow-wrapper">

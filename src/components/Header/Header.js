@@ -8,14 +8,14 @@ const Header = ({title = "", description = "", socials = true}) => {
         <div className="header-container">
             <div className="header-title">{title}</div>
             <div className="header-description">{description}</div>
-            <div className="socials-container">
+            {socials ? <div className="socials-container">
                 <a href="https://github.com/bobaec">
                     <FontAwesomeIcon icon={faGithub} inverse size="2x"/>
                 </a>
                 <a href="https://www.linkedin.com/in/bobaechoi/">
                 <FontAwesomeIcon icon={faLinkedin} inverse size="2x"/>
                 </a>
-            </div>
+            </div> : null}
         </div>
     )
 }
