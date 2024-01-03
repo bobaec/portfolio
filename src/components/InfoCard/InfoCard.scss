@@ -6,7 +6,6 @@
     flex-direction: column;
     justify-content: flex-start;
     flex: 0 0 30%;
-    max-width: 350px;
     .info-card-shadow-wrapper {
         display: flex;
         flex-direction: column;
@@ -61,3 +60,20 @@
 // desktop
 
 // mobile
+@media screen and (max-width: $max-mobile) {
+    .info-card-container {
+        max-width: 300px;
+    }
+}
+
+@media screen and (min-width: $min-tablet) and (max-width: $max-laptop) {
+    .info-card-container {
+        max-width: 275px;
+    }
+}
+
+@media screen and (min-width: $min-desktop) {
+    .info-card-container {
+        max-width: 350px;
+    }
+}
