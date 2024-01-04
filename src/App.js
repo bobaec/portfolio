@@ -1,7 +1,7 @@
 import InfoCard from './components/InfoCard/InfoCard';
 import Header from './components/Header/Header';
 import './App.scss';
-import { personalDescription, cloudArmyInfo, valostatsInfo, buzzItInfo, sfuInfo, glanceInfo, stonksInfo, sfuSSEPInfo, mutationAnalysisInfo, studywitmeInfo } from './assets/texts/Texts.js';
+import { personalDescription, cloudArmyInfo, valostatsInfo, buzzItInfo, sfuInfo, stonksInfo, sfuSSEPInfo, mutationAnalysisInfo, studywitmeInfo } from './assets/texts/Texts.js';
 
 function App() {
   return (
