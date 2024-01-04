@@ -8,7 +8,7 @@ function App() {
     <div className="portfolio-container">
       <Header title="BOBAE CHOI" description={personalDescription} socials={true} />
       <div className="info-cards-container">
-        <InfoCard info={glanceInfo} />
+        {/* <InfoCard info={glanceInfo} /> */}
         <InfoCard info={cloudArmyInfo} />
         <InfoCard info={valostatsInfo} />
         <InfoCard info={buzzItInfo}/>
