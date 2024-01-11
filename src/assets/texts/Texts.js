@@ -7,7 +7,7 @@ import studywitmeLogo from "../../assets/logos/studywitme-logo.png";
 import stonksLogo from "../../assets/logos/stonks-logo.png";
 import glanceLogo from "../../assets/logos/glance-logo.png";
 import portfolioLogo from "../../assets/logos/portfolio-logo.png";
-
+import stickyWallLogo from '../../assets/logos/sticky-wall-logo.png';
 // const personalDescriptionOld =
 // 'I am a Front End Developer with a three year track record in creating engaging and user-friendly web interfaces. With a typing speed of 150 words per minute, I am efficient at turning my ideas into code.';
 const personalDescription = "";
@@ -132,7 +132,7 @@ const mutationAnalysisInfo = {
 const studywitmeInfo = {
     image: studywitmeLogo,
     title: "Studywitme",
-    duration: "2016 - Website Project",
+    duration: "2016 - Full Stack Project",
     jobTitle: "",
     description:
         "Real time collaborative study platform for students at SFU hosted on Firebase",
@@ -147,13 +147,27 @@ const studywitmeInfo = {
 const portfolioInfo = {
     image: portfolioLogo,
     title: "Portfolio",
-    duration: "2023",
+    duration: "2023 - Front End Project",
     jobTitle: "",
     description: "Simple portfolio website made with React, SASS, and Firebase",
     links: [
         {
             label: "GITHUB",
             url: "https://github.com/bobaec/portfolio",
+        },
+    ],
+};
+
+const stickyWallInfo = {
+    image: stickyWallLogo,
+    title: "Sticky Wall",
+    duration: "2024 - Full Stack Project",
+    jobTitle: "",
+    description: "Simple Todo Website using PERN (Postgresql, Express, React, NodeJS)",
+    links: [
+        {
+            label: "GITHUB",
+            url: "https://github.com/bobaec/PERN-todo-list",
         },
     ],
 };
@@ -170,4 +184,5 @@ export {
     mutationAnalysisInfo,
     studywitmeInfo,
     portfolioInfo,
+    stickyWallInfo
 };
