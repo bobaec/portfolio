@@ -178,7 +178,7 @@ const reciperInfo = {
     title: "Reciper",
     duration: "2024 - Full Stack Project",
     jobTitle: "",
-    description: "What's in your Fridge Web App using PERN and Spoonacular API",
+    description: "What's in your Fridge Web App using PERN, Spoonacular API, and JsonWebToken Authorization with BCrypt Hashing",
     links: [
         {
             label: "GITHUB",
