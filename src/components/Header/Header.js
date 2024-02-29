@@ -9,13 +9,13 @@ const Header = ({ title = "", description = "", socials = true }) => {
             <div className="header-title">{title}</div>
             <div className="header-description">{description}</div>
             {socials ? <div className="socials-container">
-                <a href="https://github.com/bobaec">
+                <a href="https://github.com/bobaec" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} inverse size="2x" />
                 </a>
-                <a href="https://www.linkedin.com/in/bobaechoi/">
+                <a href="https://www.linkedin.com/in/bobaechoi/" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faLinkedin} inverse size="2x" />
                 </a>
-                <a href="https://www.instagram.com/bobaec_">
+                <a href="https://www.instagram.com/bobaec_" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faInstagram} inverse size="2x" />
                 </a>
             </div> : null}
