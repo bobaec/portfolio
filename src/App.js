@@ -20,7 +20,7 @@ function App() {
     return (
         <div className="portfolio-container">
             <Header
-                title="BOBAE CHOI"
+                title="bobae choi"
                 description={personalDescription}
                 socials={true}
             />
