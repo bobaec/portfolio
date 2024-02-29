@@ -13,6 +13,7 @@ import {
     studywitmeInfo,
     portfolioInfo,
     stickyWallInfo,
+    reciperInfo,
 } from "./assets/texts/Texts.js";
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
                 socials={true}
             />
             <div className="info-cards-container">
+                <InfoCard info={reciperInfo} />
                 <InfoCard info={stickyWallInfo} />
                 <InfoCard info={cloudArmyInfo} />
                 <InfoCard info={portfolioInfo} />

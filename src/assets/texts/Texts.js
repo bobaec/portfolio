@@ -8,6 +8,7 @@ import stonksLogo from "../../assets/logos/stonks-logo.png";
 import glanceLogo from "../../assets/logos/glance-logo.png";
 import portfolioLogo from "../../assets/logos/portfolio-logo.png";
 import stickyWallLogo from '../../assets/logos/sticky-wall-logo.png';
+import reciperLogo from '../../assets/logos/reciper-logo.png';
 // const personalDescriptionOld =
 // 'I am a Front End Developer with a three year track record in creating engaging and user-friendly web interfaces. With a typing speed of 150 words per minute, I am efficient at turning my ideas into code.';
 const personalDescription = "";
@@ -172,6 +173,22 @@ const stickyWallInfo = {
     ],
 };
 
+const reciperInfo = {
+    image: reciperLogo,
+    title: "Reciper",
+    duration: "2024 - Full Stack Project",
+    jobTitle: "",
+    description: "What's in your Fridge Web App using PERN and Spoonacular API",
+    links: [
+        {
+            label: "GITHUB",
+            url: "https://github.com/bobaec/reciper",
+        },
+    ],
+};
+
+
+
 export {
     personalDescription,
     cloudArmyInfo,
@@ -184,5 +201,6 @@ export {
     mutationAnalysisInfo,
     studywitmeInfo,
     portfolioInfo,
-    stickyWallInfo
+    stickyWallInfo,
+    reciperInfo,
 };
