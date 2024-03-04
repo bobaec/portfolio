@@ -16,7 +16,7 @@ const personalDescription = "";
 const cloudArmyInfo = {
     image: cloudArmyLogo,
     title: "CloudArmy",
-    duration: "July 2021 - Oct 2023",
+    duration: "July 2021 - Nov 2023",
     jobTitle: "Software Developer",
     description: "Consumer Neuroscience Reactor via React, Gatsby, Prismic",
     links: [

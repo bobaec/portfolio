@@ -1,7 +1,7 @@
 import React from 'react';
 import './InfoCard.scss';
 
-const InfoCard = ({info = {}}) => {
+const InfoCard = ({ info = {} }) => {
     const {
         image,
         title,
@@ -33,7 +33,7 @@ const InfoCard = ({info = {}}) => {
     return (
         <div className="info-card-container">
             <div className="info-card-shadow-wrapper">
-                <img className="image-container" src={image} alt="cloudarmy logo"/>
+                <img className="image-container" src={image} alt="cloudarmy logo" />
                 <div className="text-container">
                     <div className="title">{title}</div>
                     <div className="duration">{duration}</div>
@@ -41,7 +41,7 @@ const InfoCard = ({info = {}}) => {
                     <div className="description">{description}</div>
                     {links?.length ? <div className="url-container">
                         {links.map((link, index) => {
-                            return <a className="url" key={index} href={link.url} style={{color: colorURL(link.label)}}>{link.label}</a>
+                            return <a className="url" key={index} href={link.url} target="blank" rel="noreferrer" style={{ color: colorURL(link.label) }}>{link.label}</a>
                         })}
                     </div> : null}
                 </div>
